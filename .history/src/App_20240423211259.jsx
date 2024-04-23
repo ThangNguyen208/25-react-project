@@ -9,7 +9,7 @@ import { SearchAutocomplete } from "./components/search-autocomplete-with-api";
 function App() {
   return (
     <div>
-      <Accordian />
+      <Accordian /> 
       <RandomColor />
       <StarRating noOfStar={10} />
       <ImageSlider

@@ -9,14 +9,14 @@ import { SearchAutocomplete } from "./components/search-autocomplete-with-api";
 function App() {
   return (
     <div>
-      <Accordian />
-      <RandomColor />
-      <StarRating noOfStar={10} />
-      <ImageSlider
+      {/* <Accordian /> */}
+      {/* <RandomColor /> */}
+      {/* <StarRating noOfStar={10} /> */}
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
       <LoadMoreData />
       <SearchAutocomplete />
     </div>
